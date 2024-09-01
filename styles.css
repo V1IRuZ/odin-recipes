@@ -1,5 +1,11 @@
 body {
-    font-family: sans-serif;
+    font-family: sans-serif, serif;
+}
+
+.recipe-page {
+    background-color: #f2f283;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 #main-header {
@@ -15,7 +21,34 @@ body {
 }
 
 .recipes-list {
-    color:black;
+    color:rgba(0, 0, 0, 0.834);
     background-color: rgb(249, 150, 150);
 }
 
+.header {
+    font-size: 42px;
+    background-color: black;
+    color:#f2f283;
+    padding-left: 20px;
+}
+
+.header.description {
+    font-size: 32px;
+}
+
+.header.ingredients {
+    font-size: 24px;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+}
